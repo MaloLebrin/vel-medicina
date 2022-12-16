@@ -12,14 +12,17 @@
   "peerDependencies": {
     "typescript": "^3.9.0 || ^4.0.0"
   },
+  "dependencies": {
+    "@heroicons/vue": "^2.0.13",
+    "@malolebrin/pinia-entity-store": "^0.2.2",
+    "@pinia/nuxt": "^0.4.6",
+    "pinia": "^2.0.28",
+    "rollup-plugin-visualizer": "^5.8.3"
+  },
   "devDependencies": {
     "@antfu/eslint-config": "^0.34.0",
     "eslint": "^8.29.0",
     "nuxt": "3.0.0",
     "unplugin-vue-components": "^0.22.12"
-  },
-  "dependencies": {
-    "@heroicons/vue": "^2.0.13",
-    "rollup-plugin-visualizer": "^5.8.3"
   }
 }
