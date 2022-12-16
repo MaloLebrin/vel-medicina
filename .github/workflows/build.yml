@@ -1,4 +1,4 @@
-name: 🛠 Tests-CI
+name: 🛠 Build-CI
 
 on:
   pull_request:
@@ -34,5 +34,5 @@ jobs:
       - name: 🔧 Install
         run: nci
 
-      - name: 📖 Lint
-        run: nr lint
+      - name: 🏗 Build & type checking
+        run: nr build
