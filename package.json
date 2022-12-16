@@ -1,0 +1,17 @@
+{
+  "name": "vel-medicina",
+  "version": "1.0.0",
+  "description": "",
+  "packageManager": "pnpm@7.18.0",
+  "scripts": {
+    "lint": "pnpm -r run lint",
+    "lint:fix": "pnpm -r run lint:fix",
+    "build": "pnpm -r run build --parallel"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  }
+}
