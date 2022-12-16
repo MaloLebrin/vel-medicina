@@ -18,6 +18,7 @@ importers:
       nuxt: 3.0.0
       pinia: ^2.0.28
       rollup-plugin-visualizer: ^5.8.3
+      types: workspace:^1.0.0
       typescript: ^3.9.0 || ^4.0.0
       unplugin-vue-components: ^0.22.12
       vee-validate: ^4.7.3
@@ -37,6 +38,7 @@ importers:
       '@antfu/eslint-config': 0.34.0_ha6vam6werchizxrnqvarmz2zu
       eslint: 8.29.0
       nuxt: 3.0.0_atazolfbqqpxi4kh72xnlq3u3a
+      types: link:../../packages/types
       unplugin-vue-components: 0.22.12_rollup@2.79.1+vue@3.2.45
 
 packages:
