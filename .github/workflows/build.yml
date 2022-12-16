@@ -1,4 +1,4 @@
-name: 🛠 Build-CI
+name: 🏗 Build-CI
 
 on:
   pull_request:
