@@ -6,6 +6,16 @@ import { type PluginOption } from 'vite'
 export default defineNuxtConfig({
   app: { pageTransition: { name: 'page', mode: 'out-in' } },
 
+  build: {
+    transpile: [
+      'vue-toastification',
+    ],
+  },
+
+  modules: [
+    '@pinia/nuxt',
+  ],
+
   vite: {
     plugins: [
       Components({
