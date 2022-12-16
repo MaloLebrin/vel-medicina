@@ -6,7 +6,8 @@
   "scripts": {
     "lint": "pnpm -r run lint",
     "lint:fix": "pnpm -r run lint:fix",
-    "build": "pnpm -r run build --parallel"
+    "build": "pnpm -r run build --parallel",
+    "dev": "pnpm -r run dev --parallel"
   },
   "keywords": [],
   "author": "",
