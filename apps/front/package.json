@@ -13,6 +13,6 @@
     "nuxt": "3.0.0"
   },
   "peerDependencies": {
-    "typescript": "^3.9.0"
+    "typescript": "^3.9.0 || ^4.0.0"
   }
 }
