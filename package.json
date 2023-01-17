@@ -2,7 +2,7 @@
   "name": "vel-medicina",
   "version": "1.0.0",
   "description": "",
-  "packageManager": "pnpm@7.24.3",
+  "packageManager": "pnpm@7.25.0",
   "scripts": {
     "lint": "pnpm -r run lint",
     "lint:fix": "pnpm -r run lint:fix",
